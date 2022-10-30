@@ -1,0 +1,26 @@
+.boutton{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 5%;
+    list-style-type: none;
+    animation: rotation 5s infinite linear; 
+}
+.bout{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+}
+.boutton a{
+    color: white;
+    letter-spacing: 4px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.bout a:hover{
+    background: rgb(218, 211, 211);
+    color:black;
+}
